@@ -7,8 +7,9 @@ body {
     font-size: 16px; 
     font-family: 'Montserrat', sans-serif; 
     background-color: #fff; 
-    background: url("bg.png"), -webkit-linear-gradient(bottom, #0c8992, #d43f8d);
+    background: url("bg.png"), -webkit-linear-gradient(bottom, #d43f8d, #0c8992);
     margin: 50px auto;
+    
 }
 
 form#signup { 
