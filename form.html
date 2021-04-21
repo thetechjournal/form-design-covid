@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Design the Web</title>
+		<link rel="stylesheet" type="text/css" href="form.css">
+	</head>
+	<body>
+
+		<form id="signup" method="post" action="#">
+
+			<h2>Sign up</h2>
+			<h3>Pre-register for a COVID-19 vaccine appointment.</h3>
+
+			<h4>Vaccine preference</h4>
+			<input id="cat-d" type="checkbox" name="design"><label for="cat-d">Pfizer-BioTech</label>
+			<br>
+			<input id="cat-h" type="checkbox" name="html-css"><label for="cat-h">Moderna</label>
+			<br>
+			<input id="cat-j" type="checkbox" name="js"><label for="cat-j">Johnson & Johnson / Janssen</label>
+			<br>
+
+			<fieldset>
+			
+				<legend>Vaccination Information</legend>
+			
+				<h4>Your Zone</h4>
+				<input id="format-t" type="radio" name="format"><label for="format-t">Zone A</label>
+				<br>
+				<input id="format-h" type="radio" name="format"><label for="format-h">Zone B</label>
+				
+				<h4>Vaccination Group</h4>
+				<select id="group">
+					<option value="education">Education Staff</option>
+					<option value="health">Health Care Worker</option>
+					<option value="highrisk">Adult with high risk health condition</option>
+					<option value="highrisk">Ages 60+</option>
+					<option value="highrisk">Ages 50+ in select COVID-19 hotspots</option>
+				</select>
+				<br>
+	
+				<h4>Message</h4>
+				<textarea name="requests" rows="3" placeholder="Please let us know what other options you'd like to have."></textarea>
+
+			</fieldset>
+
+			<h4>Email</h4>
+			<input id="email" type="text" placeholder="Enter your full email address">
+			<br>
+
+			<input type="submit" value="Sign me up">
+
+		</form>
+
+
+	</body>
+</html>
