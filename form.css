@@ -7,8 +7,9 @@ body {
     font-size: 16px; 
     font-family: 'Montserrat', sans-serif; 
     background-color: #fff; 
-    background: url("bg.png"), -webkit-linear-gradient(bottom, #d43f8d, #0c8992);
+    /* background: url("bg.png"), -webkit-linear-gradient(bottom, #e9a0c6, #0c8992); */
     margin: 50px auto;
+    
     
 }
 
@@ -16,6 +17,7 @@ form#signup {
     max-width: 800px;
     padding: 35px;
     background: #0c8992 url(images/covid.jpg) no-repeat 0px -10px;
+    border-radius: 20px;
 }
 
 form#signup h2 { 
@@ -26,13 +28,13 @@ form#signup h2 {
 
 form#signup h3 { 
     margin: 3px 0px 12px 0px;
-    color: #025158;
+    color:  #fff; 
     font-size: 1.2rem
 }
 
 form#signup h4 { 
     margin: 15px 0px 3px 0px;
-    color: #025158;
+    color:  #fff; 
     font-size: 1rem
 }
 
@@ -48,8 +50,9 @@ form#signup fieldset {
 }
 
 form#signup legend {
-    color: #f8c735;
-    font-size: 1.2rem;
+    color: #fcd256;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
 }
 
 form#signup textarea {
@@ -70,9 +73,10 @@ form#signup select {
     font-size: 1rem;
     background: #0c8992 url(images/icons_arrows.svg) no-repeat right 8px;
     background-size: 30px 20px;
-    color: #e4af11;
+    color: #fcd256;;
     padding: 7px 45px 7px 10px;
     border: 1px solid #fff;
+    letter-spacing: 1px;
 }
 
 form#signup input[type="checkbox"],
@@ -128,7 +132,7 @@ form#signup input#email:focus {
 }
 
 form#signup input[type="submit"] {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #fff;
     border: none;
     background-color: #0c8992;
