@@ -7,7 +7,7 @@ body {
     font-size: 16px; 
     font-family: 'Montserrat', sans-serif; 
     background-color: #fff; 
-    background: url("bg.png"), -webkit-linear-gradient(bottom, #e9a0c6, #0c8992);
+    background: url("bg.png"), -webkit-linear-gradient(bottom, #a5dbdf, rgb(250, 250, 234));
     margin: 50px auto;
     
     
@@ -16,7 +16,8 @@ body {
 form#signup { 
     max-width: 800px;
     padding: 35px;
-    background: #0c8992 url(images/covid.jpg) no-repeat 0px -10px;
+    /* background: #0c8992 url(images/covid.jpg) no-repeat 0px -10px; */
+    background: #0c8992;
     border-radius: 20px;
 }
 
