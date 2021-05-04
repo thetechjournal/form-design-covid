@@ -7,7 +7,7 @@ body {
     font-size: 16px; 
     font-family: 'Montserrat', sans-serif; 
     background-color: #fff; 
-    /* background: url("bg.png"), -webkit-linear-gradient(bottom, #e9a0c6, #0c8992); */
+    background: url("bg.png"), -webkit-linear-gradient(bottom, #e9a0c6, #0c8992);
     margin: 50px auto;
     
     
